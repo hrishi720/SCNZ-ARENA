@@ -1,0 +1,326 @@
+ * {
+     font-family: 'Montserrat', sans-serif;
+     padding: 0%;
+     margin: 0%;
+ }
+
+ section {
+     position: relative;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .wrapper {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 3;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-transform: uppercase;
+     height: 140px;
+ }
+
+ .a {
+     background: url("https://wallpaperaccess.com/full/2397379.jpg");
+     height: 100vh;
+     background-size: cover;
+     position: relative;
+ }
+
+
+ .nav_area {
+     float: right;
+     list-style: none;
+     margin-top: 20px;
+     padding-top: 10px;
+     margin-right: 10px;
+ }
+
+ .nav_area li {
+     display: inline-block;
+ }
+
+ .nav_area li a {
+     color: #fff;
+     text-decoration: none;
+     padding: 5px 20px;
+     font-size: 20px;
+ }
+
+ .nav_area li a:hover {
+     background: #fff;
+     color: #333;
+     border-radius: 15px;
+ }
+
+ .logo img {
+     width: 250px;
+     float: left;
+ }
+
+ .welcome_text {
+     position: absolute;
+     margin: 20% 7%;
+     text-align: center;
+     animation: fadeInUp 0.5s, ease-in-out;
+ }
+
+ .welcome_text h1 {
+     color: #fff;
+     text-align: left;
+     font-size: 50px;
+     opacity: 60%;
+ }
+
+ .welcome_text h3 {
+     color: #fff;
+     text-align: left;
+     font-size: 30px;
+     opacity: 50%;
+ }
+
+ .icons {
+     margin: 10% 10%;
+ }
+
+ .icon {
+     width: 70px;
+     border: 2px solid #333;
+     border-radius: 10px;
+     padding: 20px 20px;
+     justify-content: space-between;
+ }
+
+ .flex {
+     display: flex;
+ }
+
+ .sub-flex {
+     margin: 25px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .dark {
+     font-weight: 900;
+ }
+
+ .sell_dialoguebazzi {
+     text-align: center;
+     text-decoration: none;
+     color: black;
+ }
+
+ .sell_dialoguebazzi h1 {
+     font-size: 50px;
+ }
+
+ .sell_dialoguebazzi h2 {
+     font-size: 30px;
+ }
+
+ .sell_car {
+     text-decoration: none;
+ }
+
+ .showroom_img {
+     margin-top: 60px;
+     float: center;
+ }
+
+ .margin {
+     margin: 20px;
+ }
+
+ .c {
+     background-color: #333;
+     color: white;
+     animation: fadeInUp 0.5s ease-in-out;
+ }
+
+ .browse_img {
+     width: 50px;
+     display: flex;
+     flex-direction: column;
+     border: 2px solid;
+     border-radius: 10px;
+     margin: 0px 20px;
+     margin-bottom: 50px;
+     padding: 15px;
+ }
+
+ .browse_data {
+     font-size: 30px;
+     margin-left: 50px;
+ }
+
+ .car_brand_logo {
+     width: 400px;
+     height: 250px;
+     margin-left: 50px;
+     margin-top: 60px;
+     border: #fff;
+     border-radius: 20px;
+ }
+
+ .car_show_text h1 {
+     font-size: 60px;
+     margin-top: 40px;
+     margin-left: 40px;
+ }
+
+ .car_show_text h2 {
+     font-size: 30px;
+     margin-top: 40px;
+     margin-left: 40px;
+ }
+
+ .car_show img {
+     width: 600px;
+     border-radius: 20px;
+     margin-right: 20px;
+
+
+
+ }
+
+ .car_show h1 {
+     margin-top: 10px;
+     margin-bottom: 30px;
+     font-size: 35px;
+     text-align: center;
+
+ }
+
+ .flex2 {
+     display: flex;
+     margin-top: 100px;
+     margin-left: 40px;
+     overflow-x: scroll;
+     flex-basis: 25%;
+ }
+
+ .flex2::-webkit-scrollbar {
+     width: 10px;
+     height: 10px;
+ }
+
+ .car_show_text2 {
+     display: flex;
+     justify-content: space-around;
+     font-weight: 300;
+ }
+
+
+ @keyframes fadeInUp {
+     0% {
+         opacity: 0;
+         transform: translateY(140px);
+     }
+
+     100% {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
+
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ .footer {
+     background-color: #12262b;
+     padding: 70px;
+ }
+
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .footer-col {
+     width: 25%;
+     padding: 0px;
+ }
+
+ .footer-col h4 {
+     font-size: 18px;
+     color: #fff;
+     text-transform: capitalize;
+     margin-bottom: 30px;
+     font-weight: 500;
+     position: relative;
+ }
+
+ .footer-col h4::before {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -10px;
+     background-color: #e91e63;
+     height: 2px;
+     height: 2px;
+     box-sizing: border-box;
+     width: 50px;
+ }
+
+ .footer-col ul li:not(:last-child) {
+     margin-bottom: 10px;
+ }
+
+ .footer-col ul li a {
+     font-size: 16px;
+     text-transform: capitalize;
+     color: #ffff;
+     text-decoration: none;
+     font-weight: 300;
+     display: block;
+ }
+
+ .footer-col ul li a:hover {
+     color: #ffffff;
+     padding-left: 8px;
+ }
+
+ .footer-col .social-links a {
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(255, 255, 255, 0.2);
+     margin: 0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: #ffffff;
+ }
+
+ .footer-col ul {
+     list-style: none;
+ }
+
+ @keyframes fadeBounce {
+
+     0%,
+     20%,
+     50%,
+     80%,
+     100% {
+         opacity: 0;
+         transform: translateY(-20px);
+     }
+
+     40% {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
